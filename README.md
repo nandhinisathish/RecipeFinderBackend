@@ -20,7 +20,8 @@ future update.
 | GET    | `/`                      | Home route (optional welcome message) |
 | GET    | `/api/favourites`        | Get all favourite meals               |
 | POST   | `/api/favourites`        | Create a new favourite meal           |
-
+| POST   | `/api/auth/register`     | Create a new user                     |
+| POST   | `/api/auth/login   `     | Existing user login                   |
 
 
 ## 🛠 Built With
