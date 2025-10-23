@@ -22,7 +22,9 @@ future update.
 | POST   | `/api/favourites`        | Create a new favourite meal           |
 | POST   | `/api/auth/register`     | Create a new user                     |
 | POST   | `/api/auth/login   `     | Existing user login                   |
-
+| GET    | `/api/favourites/:id`    | Get a specific favourite meal by ID   |
+| PUT    | `/api/favourites/:id`    | Update a favourite meal's tag         |
+| DELETE | `/api/favourites/:id`    | Delete a favourite meal               |
 
 ## 🛠 Built With
 
