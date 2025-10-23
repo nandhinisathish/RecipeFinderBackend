@@ -18,6 +18,9 @@ future update.
 | VERB   | PATH                     | DESCRIPTION                           |
 |--------|--------------------------|---------------------------------------|
 | GET    | `/`                      | Home route (optional welcome message) |
+| GET    | `/api/favourites`        | Get all favourite meals               |
+| POST   | `/api/favourites`        | Create a new favourite meal           |
+
 
 
 ## 🛠 Built With
