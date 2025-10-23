@@ -35,5 +35,4 @@ router
   .delete(auth, favouritesCTRL.deleteFavourites);
 
 
-
 export default router;
