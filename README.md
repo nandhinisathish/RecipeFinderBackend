@@ -51,6 +51,8 @@ future update.
 - Per Scholas
 - Dylan Comeau – for invaluable guidance, mentorshipand encouragement during development
 - Constance Nwaigwe – for consistent support throughout the course.
+- I would like to thank my classmates for their support, collaboration, and valuable feedback throughout this project. Your ideas and encouragement made this work much more enjoyable and successful.
+
 - Express.js Documentation
 - MongoDB/Mongoose Docs
 - Postman for testing APIs
