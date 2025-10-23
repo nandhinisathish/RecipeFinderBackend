@@ -34,5 +34,4 @@ router
   // @access Developer
   .delete(auth, favouritesCTRL.deleteFavourites);
 
-
 export default router;
