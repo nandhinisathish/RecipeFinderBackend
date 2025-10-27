@@ -26,12 +26,22 @@ router
 
 // @route   /api/favourites/:id
 router
-  .route("/:id")
+  .route("/:idMeal")
   // @desc   PUT Update a favourite item 
   // @access Developer
-  .put(auth, favouritesCTRL.updateFavourites)
+  //.put(auth, favouritesCTRL.updateFavourites)
   // @desc   DELETE a favourite item
   // @access Developer
   .delete(auth, favouritesCTRL.deleteFavourites);
+
+  // @route   /api/favourites/update
+router
+  .route("/update")
+  // @desc   PUT Update a favourite item 
+  // @access Developer
+  .put(auth, favouritesCTRL.updateFavourite)
+  // @desc   PUT Update a favourite item 
+  // @access Developer
+  .post(auth, favouritesCTRL.createFavourite)
 
 export default router;

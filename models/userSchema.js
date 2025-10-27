@@ -17,6 +17,12 @@ const userSchema = new Schema(
       minlength: 6,
     },
   
+ favourites: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Meal',  // Reference to the Favourite model
+      }
+    ]
   },
   {
     timestamps: true,
